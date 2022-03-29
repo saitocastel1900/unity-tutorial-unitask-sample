@@ -27,6 +27,6 @@ View--Viewの変更を通知-->Presenter
 ・ReactiveCommandを用いたBGM、SEのON、OFF    
 
 ## 参考
-https://www.youtube.com/playlist?list=PLX8FlYCKkO9hbFywFytAFgY4ooGzT6ttv　　
-https://www.amazon.co.jp/UniRx-UniTask%E5%AE%8C%E5%85%A8%E7%90%86%E8%A7%A3-%E3%82%88%E3%82%8A%E9%AB%98%E5%BA%A6%E3%81%AAUnity-C-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/dp/4048930753　　
+https://www.youtube.com/playlist?list=PLX8FlYCKkO9hbFywFytAFgY4ooGzT6ttv  
+https://www.amazon.co.jp/UniRx-UniTask%E5%AE%8C%E5%85%A8%E7%90%86%E8%A7%A3-%E3%82%88%E3%82%8A%E9%AB%98%E5%BA%A6%E3%81%AAUnity-C-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/dp/4048930753  
 https://github.com/Cysharp/UniTask
