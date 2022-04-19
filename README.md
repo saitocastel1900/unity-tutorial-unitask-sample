@@ -2,8 +2,9 @@
 This is a sample created during the UniTask learning process. for the five free time  
 UniTask学習中に作成したサンプルプロジェクトです。ご自由にお使いください。  
 ## UniTaskとは 
-
-
+・Tasks optimised for Unity.  
+・Can code asynchronous processing like synchronous processing  
+・Enhanced version of Coroutine.
 
   
 
