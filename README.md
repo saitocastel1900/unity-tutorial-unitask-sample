@@ -18,9 +18,9 @@ UniTask学習中に作成したサンプルプロジェクトです。ご自由�
 
 
 
-## 参考
+## reference data
 https://www.youtube.com/playlist?list=PLX8FlYCKkO9hbFywFytAFgY4ooGzT6ttv  
-https://www.amazon.co.jp/UniRx-UniTask%E5%AE%8C%E5%85%A8%E7%90%86%E8%A7%A3-%E3%82%88%E3%82%8A%E9%AB%98%E5%BA%A6%E3%81%AAUnity-C-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0/dp/4048930753  
+https://tatsu-zine.com/books/unirx-unitask  
 https://github.com/Cysharp/UniTask  
 http://softmedia.sakura.ne.jp/advent-calendar/2020/12-12.html  
 https://zenn.dev/torisoup/articles/coroutine_01
