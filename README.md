@@ -12,7 +12,7 @@ UniTask学習中に作成したサンプルプロジェクトです。ご自由�
 ## Samples using UniTask
 ### 1.UI waiting for IO  
 ![スクリーンショット 2022-03-29 234534](https://user-images.githubusercontent.com/96648305/160638905-26179942-d07f-43f0-8322-e16eb6a49b4d.png)
-### 2.
+### 2.Dotween and UniTask work together.
 
 ### 3.
 
