@@ -6,6 +6,27 @@ UniTask学習中に作成したサンプルプロジェクトです。ご自由�
 ・Taskの強化版(パフォーマンが高い)  
 ・非同期処理は同期処理の逆（結果を待たないで次の処理に移ることが出来る処理）  
 
+### 使い方 
+・async awaitを使う感じで使います。TaskをUniTaskにすることで、Unitaskの機能が使えます。  
+・awaitするところからスレッドが変わるはずだが、Unity側がメインスレッドに納めてくれるため、ManagedThreadIdの値はすべて1  
+
+```
+   void Start()
+    {
+        Debug.Log("スレッド："+Thread.CurrentThread.ManagedThreadId+"  1");
+        Test();
+         
+    }
+
+    // Update is called once per frame
+    async UniTask Test()
+    {
+        //1秒待つ
+        await UniTask.Delay(1000);
+        Debug.Log("スレッド："+Thread.CurrentThread.ManagedThreadId+"  2");
+    }
+```
+
 ### コールチンとの違いは？
 ・コールチンも非同期処理を簡単に実装できますが、戻り値を持ってくるようにするには難しかったりする..  
 ・  
