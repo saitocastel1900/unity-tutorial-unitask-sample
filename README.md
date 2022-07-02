@@ -61,12 +61,31 @@ void Start()
     }
 ```
 #### UniTaskを入れたコールチン
-```
+・コールチンと違いオブジェクトが破壊されても実行し続けるので注意が必要  
+・同期処理の様にかけて便利  
 
 ```
+    // Start is called before the first frame update
+    void Start()
+    {
+        CoroutineTest(5);
+    }
 
-・コールチンも非同期処理を簡単に実装できますが、戻り値を持ってくるようにするには難しかったりする..  
-・処理の流れが分かりやすい    
+    //コールチンを定義する
+    async UniTask CoroutineTest(int time = 0)
+    {
+        Debug.Log("コルーチンスタート");
+
+        
+        await Task.Delay(time*1000);
+
+        //処理終了
+        Debug.Log("コルーチンフィニッシュ");
+    }
+```
+
+## キャンセルの処理
+
 
 ## UniTaskで色々実装してみる
 ### 1.入力待ちするUI
