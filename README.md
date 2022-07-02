@@ -112,10 +112,6 @@ void Start()
 ![gg](https://user-images.githubusercontent.com/96648305/177011336-a2472f67-598f-4d5e-a71a-709ae69aaec6.png)
 
 
-### 3.
-
-
-
 ## 参考資料
 https://www.youtube.com/playlist?list=PLX8FlYCKkO9hbFywFytAFgY4ooGzT6ttv  
 https://tatsu-zine.com/books/unirx-unitask  
