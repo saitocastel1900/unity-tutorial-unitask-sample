@@ -99,6 +99,8 @@ void Start()
 ![スクリーンショット 2022-03-29 234534](https://user-images.githubusercontent.com/96648305/160638905-26179942-d07f-43f0-8322-e16eb6a49b4d.png)
 
 ### 2. Dotweenで使ってみる
+・Dotweenもasync awaitに対応しているので、UniTaskも利用できます。
+
 ![gg](https://user-images.githubusercontent.com/96648305/177011336-a2472f67-598f-4d5e-a71a-709ae69aaec6.png)
 
 
