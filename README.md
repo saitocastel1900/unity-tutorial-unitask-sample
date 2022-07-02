@@ -121,4 +121,8 @@ https://www.youtube.com/playlist?list=PLX8FlYCKkO9hbFywFytAFgY4ooGzT6ttv
 https://tatsu-zine.com/books/unirx-unitask  
 https://github.com/Cysharp/UniTask  
 http://softmedia.sakura.ne.jp/advent-calendar/2020/12-12.html  
-https://zenn.dev/torisoup/articles/coroutine_01
+https://zenn.dev/torisoup/articles/coroutine_01  
+https://game-ui.net/?p=1040  
+https://zenn.dev/ohbashunsuke/books/20200924-dotween-complete  
+
+
