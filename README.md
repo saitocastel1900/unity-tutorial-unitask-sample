@@ -85,11 +85,12 @@ void Start()
 ```
 
 ## キャンセルの処理
-・CancellationTokenを用いることでキャンセル可能  
-・GetCancellationTokenOnDestroy()でオブジェクト破壊時にキャンセルされる  
-
+・**UniTaskは自動的にキャンセルされないのでIDposeの様に意図的に破棄させる機能を追加させる必要がある**  
+・UniTaskにはUniTaskTrackerというTaskを管理できるものがあります。是非利用しましょう。  
 ![タイトルなし](https://user-images.githubusercontent.com/96648305/177011341-0468f3f4-fa22-4e32-bf9d-c67f5902c356.png)
 
+・基本的にCancellationTokenを用いることでキャンセル可能  
+・GetCancellationTokenOnDestroy()でオブジェクト破壊時にキャンセルされる  
 
 ## UniTaskで色々実装してみる
 ### 1.入力待ちするUI
