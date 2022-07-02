@@ -93,10 +93,10 @@ void Start()
 ・GetCancellationTokenOnDestroy()でオブジェクト破壊時にキャンセルされる  
 
 ## UI周りでUniTaskで色々実装してみる
-### AsyncHandlerについて
-| 命令名 | 説明 |
+### AsyncHandlerについて（UI関係）
+| 命令語 | 説明 |
 |:---:|:---:|
-|1 |2 |
+|OnClickAsync |2 |
 |4 |5 |
 |1 |2 |
 |4 |5 |
