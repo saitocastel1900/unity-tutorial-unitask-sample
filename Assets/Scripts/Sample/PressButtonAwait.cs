@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Cysharp.Threading.Tasks;
 
-namespace Saito.UI
+namespace Await.UI
 {
     public class PressButtonAwait : MonoBehaviour
     {
@@ -19,6 +19,7 @@ namespace Saito.UI
 
         private async UniTask Test()
         {
+            //OnClickAsyncで待つ
             for (int i = 0; i < 10; i++)
             {
                 _text.text = $"{i}回ボタンが押されました！";
