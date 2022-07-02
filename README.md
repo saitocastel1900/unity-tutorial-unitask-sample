@@ -85,6 +85,10 @@ void Start()
 ```
 
 ## キャンセルの処理
+・CancellationTokenを用いることでキャンセル可能  
+・GetCancellationTokenOnDestroy()でオブジェクト破壊時にキャンセルされる  
+
+![タイトルなし](https://user-images.githubusercontent.com/96648305/177011341-0468f3f4-fa22-4e32-bf9d-c67f5902c356.png)
 
 
 ## UniTaskで色々実装してみる
@@ -92,6 +96,7 @@ void Start()
 ![スクリーンショット 2022-03-29 234534](https://user-images.githubusercontent.com/96648305/160638905-26179942-d07f-43f0-8322-e16eb6a49b4d.png)
 
 ### 2. Dotweenで使ってみる
+![gg](https://user-images.githubusercontent.com/96648305/177011336-a2472f67-598f-4d5e-a71a-709ae69aaec6.png)
 
 
 ### 3.
