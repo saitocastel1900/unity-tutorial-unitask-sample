@@ -3,7 +3,7 @@ This is a sample created during the UniTask learning process. for the five free 
 UniTask学習中に作成したサンプルプロジェクトです。ご自由にお使いください。  
 ## UniTaskとは
 ・非同期処理を強化する仕組み  
-・Taskの強化版(パフォーマンが高い)  
+・Taskの強化版(パフォーマンが高い、Unity用に用意されたメソッドもあったりする)  
 ・非同期処理は同期処理の逆（結果を待たないで次の処理に移ることが出来る処理）  
 
 ### 使い方 
