@@ -34,7 +34,31 @@ UniTask学習中に作成したサンプルプロジェクトです。ご自由�
 ・yeild returnまたは break がかならず1回必要   
 ・yeild breakで処理終了   
 ```
+void Start()
+    {
+        //コールチンを呼び出す
+        //StartCoroutine(CoroutineTest(0));
 
+        StartCoroutine(CoroutineTest(5.0f));
+    }
+
+    //コールチンを定義する
+    IEnumerator CoroutineTest(float time=0.0f)
+    {
+        Debug.Log("コルーチンスタート");
+        
+        //コールチンを途中で停止できる
+        if(time>=5.0f) StopCoroutine(CoroutineTest());
+        
+        //特殊なreturn 
+        yield return new WaitForSeconds(time) ;
+        //1フレーム待つ
+        //yield return null;
+        
+        //処理終了
+        Debug.Log("コルーチンフィニッシュ");
+        yield break;
+    }
 ```
 #### UniTaskを入れたコールチン
 ```
