@@ -97,11 +97,8 @@ void Start()
 | 命令語 | 説明 |
 |:---:|:---:|
 |OnClickAsync |2 |
-|4 |5 |
-|1 |2 |
-|4 |5 |
-|1 |2 |
-|4 |5 |
+|OnValueChangedAsync |5 |
+|OnEditAsync |2 |
 
 ### 1.入力待ちするUI
 ![スクリーンショット 2022-03-29 234534](https://user-images.githubusercontent.com/96648305/160638905-26179942-d07f-43f0-8322-e16eb6a49b4d.png)
