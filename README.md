@@ -93,15 +93,15 @@ void Start()
 ・GetCancellationTokenOnDestroy()でオブジェクト破壊時にキャンセルされる  
 
 ## UI周りでUniTaskで色々実装してみる
+
 ### AsyncHandlerについて（UI関係）
 | 命令語 | 説明 |
 |:---:|:---:|
-|OnClickAsync |2 |
-|4 |5 |
-|1 |2 |
-|4 |5 |
-|1 |2 |
-|4 |5 |
+|OnClickAsync |クリックを待つ |
+|OnValueChangedAsync |値が変化するのを待つ |
+|OnEditAsync |入力が終わるのを待つ |
+
+・イベント周りはUniRxの方が使いやすいですね..  
 
 ### 1.入力待ちするUI
 ![スクリーンショット 2022-03-29 234534](https://user-images.githubusercontent.com/96648305/160638905-26179942-d07f-43f0-8322-e16eb6a49b4d.png)
@@ -110,6 +110,8 @@ void Start()
 ・Dotweenもasync awaitに対応しているので、UniTaskも利用できます。
 
 ![gg](https://user-images.githubusercontent.com/96648305/177011336-a2472f67-598f-4d5e-a71a-709ae69aaec6.png)
+### 3. 一通りAsyncHandlerを試してみる
+![タイトルなし](https://user-images.githubusercontent.com/96648305/177019760-178a31fd-c904-4993-9612-19c2ad55117d.png)
 
 
 ## 参考資料
