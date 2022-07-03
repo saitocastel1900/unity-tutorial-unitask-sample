@@ -93,12 +93,14 @@ void Start()
 ・GetCancellationTokenOnDestroy()でオブジェクト破壊時にキャンセルされる  
 
 ## UI周りでUniTaskで色々実装してみる
+
 ### AsyncHandlerについて（UI関係）
 | 命令語 | 説明 |
 |:---:|:---:|
 |OnClickAsync |クリックを待つ |
 |OnValueChangedAsync |値が変化するのを待つ |
 |OnEditAsync |入力が終わるのを待つ |
+・イベント周りはUniRxの方が使いやすいですね..  
 
 ### 1.入力待ちするUI
 ![スクリーンショット 2022-03-29 234534](https://user-images.githubusercontent.com/96648305/160638905-26179942-d07f-43f0-8322-e16eb6a49b4d.png)
