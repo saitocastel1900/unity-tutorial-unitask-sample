@@ -100,6 +100,7 @@ void Start()
 |OnClickAsync |クリックを待つ |
 |OnValueChangedAsync |値が変化するのを待つ |
 |OnEditAsync |入力が終わるのを待つ |
+
 ・イベント周りはUniRxの方が使いやすいですね..  
 
 ### 1.入力待ちするUI
