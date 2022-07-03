@@ -110,6 +110,8 @@ void Start()
 ・Dotweenもasync awaitに対応しているので、UniTaskも利用できます。
 
 ![gg](https://user-images.githubusercontent.com/96648305/177011336-a2472f67-598f-4d5e-a71a-709ae69aaec6.png)
+### 3. 一通りAsyncHandlerを試してみる
+![タイトルなし](https://user-images.githubusercontent.com/96648305/177019760-178a31fd-c904-4993-9612-19c2ad55117d.png)
 
 
 ## 参考資料
